@@ -1,0 +1,28 @@
+Running the Application and Executing Unit Tests
+
+Prerequisites
+-------------
+1. Node.js: Ensure you have Node.js installed. You can download it from https://nodejs.org/.
+2. npm: Node.js includes npm (Node Package Manager) which is used to manage project dependencies.
+
+Setup
+-----
+1. Clone the Repository
+   $ git clone <repository-url>
+
+2. Navigate to the Project Directory
+   $ cd <project-directory>
+
+3. Install Dependencies
+   $ npm install
+
+Running the Application
+-----------------------
+1. Start the Server
+   $ npm start
+
+   By default, the server will run on http://localhost:3000. You can change the port by setting the PORT environment variable before starting the server:
+   $ PORT=4000 npm start
+
+2. Access the Application
+   Open your browser and navigate to http://localhost:3000 to access the application.
